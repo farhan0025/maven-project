@@ -6,7 +6,7 @@ For any questions - Please email me at DevOps@RajeshKumar.xyz
 	<repository>
 		<id>tata</id>
 		<name>Internal Releases</name>
-		<url>http://13.127.163.182:8081/repository/scmgalaxy/</url>
+		<url>http://52.47.164.4:8081/repository/scmgalaxy/</url>
 	</repository>
  
 	<snapshotRepository>
