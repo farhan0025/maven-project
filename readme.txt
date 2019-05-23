@@ -23,13 +23,13 @@ For any questions - Please email me at DevOps@RajeshKumar.xyz
 	<repository>
 		<id>rajesh</id>
 		<name>Internal Releases</name>
-		<url>http://13.127.94.210:8081/artifactory/list/rajesh-release/</url>
+		<url>http://52.47.164.4:8081/artifactory/list/rajesh-release/</url>
 	</repository>
  
 	<snapshotRepository>
 		<id>rajesh</id>
 		<name>Internal Releases</name>
-		<url>http://13.127.94.210:8081/artifactory/list/rajesh-snapshot/</url>
+		<url>http://52.47.164.4:8081/artifactory/list/rajesh-snapshot/</url>
 	</snapshotRepository>
 
 </distributionManagement>
@@ -37,15 +37,15 @@ For any questions - Please email me at DevOps@RajeshKumar.xyz
 =====================SETTING.XML=================================
    <server>
 		<id>rajesh</id>
-		<username>rajesh-user</username>
-		<password>rajesh-user123</password>
+		<username>farhan-user</username>
+		<password>123456</password>
 </server>
 
 =======================Setting.xml with Artifactory Setup======================
 <mirror>
       <id>central</id>
       <name>Maven Repository Manager running on repo.mycompany.com</name>
-      <url>http://13.127.94.210:8081/artifactory/list/group/</url>
+      <url>http://52.47.164.4:8081/artifactory/list/group/</url>
       <mirrorOf>*</mirrorOf>
     </mirror>
     
