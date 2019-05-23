@@ -6,13 +6,13 @@ For any questions - Please email me at DevOps@RajeshKumar.xyz
 	<repository>
 		<id>tata</id>
 		<name>Internal Releases</name>
-		<url>http://35.180.178.252:8081/repository/scmgalaxy/</url>
+		<url>http://35.180.140.254:8081/repository/scmgalaxy/</url>
 	</repository>
  
 	<snapshotRepository>
 		<id>tata</id>
 		<name>Internal Releases</name>
-		<url>http://35.180.178.252:8081/nexus/content/repositories/snapshot/</url>
+		<url>http://35.180.140.254:8081/nexus/content/repositories/snapshot/</url>
 	</snapshotRepository>
 
 </distributionManagement>
@@ -21,22 +21,22 @@ For any questions - Please email me at DevOps@RajeshKumar.xyz
 ===============ARTIFACTORY=================
 <distributionManagement>
 	<repository>
-		<id>rajesh</id>
+		<id>depoyment</id>
 		<name>Internal Releases</name>
-		<url>http://35.180.178.252:8081/artifactory/list/rajesh-release/</url>
+		<url>http://35.180.140.254:8081/artifactory/list/rajesh-release/</url>
 	</repository>
  
 	<snapshotRepository>
-		<id>rajesh</id>
+		<id>farhan</id>
 		<name>Internal Releases</name>
-		<url>http://35.180.178.252:8081/artifactory/list/rajesh-snapshot/</url>
+		<url>http://35.180.140.254:8081/artifactory/list/rajesh-snapshot/</url>
 	</snapshotRepository>
 
 </distributionManagement>
 
 =====================SETTING.XML=================================
    <server>
-		<id>rajesh</id>
+		<id>farhan</id>
 		<username>farhan-user</username>
 		<password>123456</password>
 </server>
@@ -45,7 +45,7 @@ For any questions - Please email me at DevOps@RajeshKumar.xyz
 <mirror>
       <id>central</id>
       <name>Maven Repository Manager running on repo.mycompany.com</name>
-      <url>http://35.180.178.252:8081/artifactory/list/group/</url>
+      <url>http://35.180.140.254:8081/artifactory/list/group/</url>
       <mirrorOf>*</mirrorOf>
     </mirror>
     
