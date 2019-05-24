@@ -42,12 +42,12 @@
     <repository>
         <id>deployment</id>
         <name>Internal Releases</name>
-        <url>http://35.180.140.254:8081/#browse/browse/components:maven-releases/</url>
+        <url>http://35.181.93.154:8081/#browse/browse/components:maven-releases/</url>
     </repository>
     <snapshotRepository>
         <id>deployment</id>
         <name>Internal Releases</name>
-        <url>http://35.180.140.254:8081/#browse/browse/components:maven-snapshots/</url>
+        <url>http://35.181.93.154:8081/#browse/browse/components:maven-snapshots/</url>
     </snapshotRepository>
 </distributionManagement>
 
